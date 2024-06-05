@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#24252a;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+li, a, button{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    z-index: 2;
+}
+
+.ull{
+    list-style: none;
+    z-index: 2;
+}
+.ull li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.ull li a{
+    transition: all 0.2s ease 0s;
+
+}
+.ull a{
+    padding: 9px 25px;
+    background-color: rgb(12, 226, 23,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.2s ease 0s;
+}
+.ull li a:hover{
+    background-color: rgb(0, 136, 233,1);
+
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 233,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.2s ease 0s;
+}
+button:hover{
+    background-color: rgb(0, 136, 233,0.6);
+}
+.main{
+    display: flex;
+
+    align-items: center;
+    margin: 0px 60vh;
+    padding: clamp(0.25rem, o.5vw,1rem) 0rem;
+    height: 85vh;
+    width: 100vh;
+}
+.main p{
+    font-size: 50px;
+}
+.know{
+    font-size: 45px;
+    color: #0088e9;
+    transition:all 0.3s ease 0s;
+    
+}
+.know:hover{
+    color:rgb(12, 226, 23)
+}
+.m{
+    height: 100vh;
+    width:100%;
+}
+.me{
+    height: 50%;
+    width:50%;
+    margin: 0 0;
+    display: flex;
+    display: block;
+
+    margin-left: 30%;
+    font-size: 30px;
+}
+.me p{
+    font-size: 30px;
+}
+.me a{
+    color: #0088e9;
+    font-size: 25px;
+}
+.me a:hover{
+    color:rgb(12, 226, 23)
+}
+.me h3{
+    font-size: 35px;
+    margin-left: 30%;
+}
+.mi{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.software{
+    height: 50vh;
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 10%;
+    justify-content: center;
+    
+}
+.skills{
+    height: 50vh;
+    width: 50%;
+    margin-top:5%;
+    margin-left: 35%;
+    justify-content:center;
+    
+    
+}

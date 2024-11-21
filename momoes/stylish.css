@@ -1,32 +1,40 @@
 .menu1{
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
     background-color: white;
-    position:absolute;
-    margin-left: 45%;
-    margin-top: 15%;
+    position:relative;
+    margin-left: 600px;
+    margin-top: 200px;
+    display: inline-block;
+    animation-name: hub;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes hub{
+    0%  {right:0px; bottom: 0px;}
+    25% {right:10px; bottom: 25px;}
+    50% {right:20px; bottom: 50px;}
+    75%{right:30px; bottom: 75px;}
+    100%{right:40px; bottom: 100px; min-width: 500px;min-height: 250px;margin-top: 150px;margin-left: 150px;}
 }
 .menu2{
-    width: 50px;
-    height: 50px;
-    position: absolute;
+    min-width: 50px;
+    min-height: 50px;
     background-color: white;
-    margin-left: 45%;
-    margin-top:20%;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 200px;
+    display: inline-block;
+    animation-name: hub;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-in-out;
 }
-.menu3{
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    position:absolute;
-    margin-left: 50%;
-    margin-top: 15%;
-}
-.menu4{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    background-color: white;
-    margin-left: 50%;
-    margin-top:20%;
+@keyframes bub{
+    0%  {right:0px; bottom: 0px;}
+    25% {right:10px; bottom: 25px;}
+    50% {right:20px; bottom: 50px;}
+    75%{right:30px; bottom: 75px;}
+    100%{right:40px; bottom: 100px; min-width: 500px;min-height: 250px;margin-top: 150px;margin-left: 00px;}
 }

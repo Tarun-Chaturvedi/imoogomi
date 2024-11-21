@@ -15,7 +15,7 @@
     0%  {right:0px; bottom: 0px;}
     25% {right:10px; bottom: 25px;}
     50% {right:20px; bottom: 50px;}
-    75%{right:30px; bottom: 75px;}
+    75% {right:30px; bottom: 75px;}
     100%{right:40px; bottom: 100px; min-width: 500px;min-height: 250px;margin-top: 150px;margin-left: 150px;}
 }
 .menu2{
@@ -30,11 +30,4 @@
     animation-duration: 3s;
     animation-fill-mode:forwards;
     animation-timing-function: ease-in-out;
-}
-@keyframes bub{
-    0%  {right:0px; bottom: 0px;}
-    25% {right:10px; bottom: 25px;}
-    50% {right:20px; bottom: 50px;}
-    75%{right:30px; bottom: 75px;}
-    100%{right:40px; bottom: 100px; min-width: 500px;min-height: 250px;margin-top: 150px;margin-left: 00px;}
 }
